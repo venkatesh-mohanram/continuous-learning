@@ -97,4 +97,10 @@ np.max(arr)
 np.sin(arr)   
 np.log(arr)  # logarithm 
 ```
+We can run all the function against the np array object too
+```shell script
+arr.max()
+arr.sum()
+...
+```
 
