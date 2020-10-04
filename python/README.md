@@ -5,3 +5,4 @@ I recently started looking into the python programming and I love it very much f
 2. [NumPy](NumPy.md)
 3. [Pandas](Pandas.md)
 4. [Matplotlib](Matplotlib.md)
+5. [Seaborn](Seaborn.md)
