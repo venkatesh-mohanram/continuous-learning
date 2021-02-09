@@ -4,3 +4,4 @@ Docker is a container and acts like a OS level virtualization and it has become 
 1. [HTTP API V2](httpapiv2.md) 
 2. [Changing the default storage directory](StorageDirectory.md)
 3. [Setting proxy details](ProxySettings.md)
+4. [Adding insecure registry](AddingInsecureRegistry.md)
