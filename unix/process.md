@@ -7,3 +7,8 @@ This command basically lists the process started by the terminal tty and started
 ```
 ps -x
 ```
+Along with that we can use grep command to filter out the PID of a particular process
+
+```
+ps -x | grep kubelet
+```
