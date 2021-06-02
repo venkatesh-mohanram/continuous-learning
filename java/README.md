@@ -11,3 +11,4 @@ As a part of this topic, you can find discussions about Java and its correspondi
 
 * Memory Management
      * [DirectByteBuffer Memory Leak](NioMemoryLeak.md)
+     * [MAT - Object Query Language](ObjectQueryLanguage.md)
