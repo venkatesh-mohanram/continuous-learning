@@ -1,3 +1,6 @@
+# Java Concurrency in Practice 
+Some of the points after reading few pages in the book Java Concurrency in Practice [https://www.amazon.in/Java-Concurrency-Practice-Brian-Goetz/dp/0321349601](https://www.amazon.in/Java-Concurrency-Practice-Brian-Goetz/dp/0321349601)
+
 * Each thread shares the process wide resources like memory and file handles
 * Each thread has its own program counter, stack, local variables
 * Synchronous IO - 
