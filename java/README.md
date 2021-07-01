@@ -5,6 +5,7 @@ As a part of this topic, you can find discussions about Java and its correspondi
     * [Executing application using maven command](MavenExec.md)
     * [Micronaut reference to OCI SDK](MicronautBomReferenceToOCIsdk.md)
     * [Disable test execution](DisableTests.md)
+    * [Using multiple threads for building](maven/MavenThread.md)
 
 * Jar
     * [Exclude jar from test classpath](ExcludeJarInTest.md)
