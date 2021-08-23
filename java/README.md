@@ -10,9 +10,10 @@ As a part of this topic, you can find discussions about Java and its correspondi
 * Jar
     * [Exclude jar from test classpath](ExcludeJarInTest.md)
     * [List files inside the jar](JarCommands.md)
+    * [Decompile a class in Linux](DecompileClassFileInLinux.md)
 
 * Memory Management
      * [DirectByteBuffer Memory Leak](NioMemoryLeak.md)
      * [MAT - Object Query Language](ObjectQueryLanguage.md)
 * Core Java
-      * [Concurrency / Multithreading](ConcurrencyInJava.md)
+     * [Concurrency / Multithreading](ConcurrencyInJava.md)
