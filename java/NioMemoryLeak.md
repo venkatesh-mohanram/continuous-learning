@@ -22,10 +22,10 @@ bash$ watch -n 5 'cat /sys/fs/cgroup/memory/memory.stat | grep rss'
 bash$ jcmd <jpid> GC.heap_dump /tmp/dump.hprof
 ```
 ```sh
-kubectl exec -it ic-api-intg-dt-8d9db667-6g2sr -c ic-api-intg-dt -n vemohanr -- bash -c "while(true); do jcmd 6 GC.heap_info && date && echo ------------- && sleep 2; done" | tee /scratch/vemohanr/deleteme/heap-info-210903-2.txt
+kubectl exec -it api-intg-8d9db667-6g2sr -c api-intg -n vemohanr -- bash -c "while(true); do jcmd 6 GC.heap_info && date && echo ------------- && sleep 2; done" | tee /scratch/vemohanr/deleteme/heap-info-210903-2.txt
 ```
 ```sh
-kubectl exec -it ic-api-intg-dt-8d9db667-6g2sr -c ic-api-intg-dt -n vemohanr -- bash -c "while(true); do cat /sys/fs/cgroup/memory/memory.stat | grep rss && date && echo ------------- && sleep 2; done" | tee /scratch/vemohanr/deleteme/rss-210903-2.txt
+kubectl exec -it api-intg-8d9db667-6g2sr -c api-intg -n vemohanr -- bash -c "while(true); do cat /sys/fs/cgroup/memory/memory.stat | grep rss && date && echo ------------- && sleep 2; done" | tee /scratch/vemohanr/deleteme/rss-210903-2.txt
 ```
 
 For getting the jpid, try one of the following

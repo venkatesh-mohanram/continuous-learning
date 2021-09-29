@@ -5,7 +5,7 @@ Below is the definition file where both metrics on cpu and memory are defined
 apiVersion: autoscaling/v2beta2
 kind: HorizontalPodAutoscaler
 metadata:
-  name: ic-api-intg-dt-hpa
+  name: api-intg-hpa
   namespace: vemohanr
 spec:
   maxReplicas: 5
@@ -13,7 +13,7 @@ spec:
   scaleTargetRef:
     apiVersion: apps/v1
     kind: Deployment
-    name: ic-api-intg-dt
+    name: api-intg
   metrics:
   - type: Resource
     resource:
