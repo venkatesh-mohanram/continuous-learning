@@ -10,3 +10,4 @@ Kubernetes is one of the coolest technology and is made available under [CNCF](h
 7. [Setting Up a kubernetes dashboard](KubernetesDashboard.md)
 8. [Horizontal Pod Autoscaling - HPA](HorizontalPodAutoscaling.md)
 9. [Horizontal Pod Autoscaling - Disable scale down](HPA_ScaleDown_Disable.md)
+10. [Configuring Ingress and Egress rules](NetworkPolicy.md)
