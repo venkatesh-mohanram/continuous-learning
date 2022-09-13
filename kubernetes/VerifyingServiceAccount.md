@@ -28,4 +28,7 @@ To further debug and diagnose cluster problems, use 'kubectl cluster-info dump'.
 
 ## References
 [https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.25/#-strong-api-overview-strong-](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.25/#-strong-api-overview-strong-)
+
 [https://www.ibm.com/docs/en/cloud-paks/cp-management/2.0.0?topic=kubectl-using-service-account-tokens-connect-api-server](https://www.ibm.com/docs/en/cloud-paks/cp-management/2.0.0?topic=kubectl-using-service-account-tokens-connect-api-server)
+
+[Accessing K8S API from POD](AccessingKubeapiserverFromPod.md)
