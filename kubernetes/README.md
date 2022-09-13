@@ -11,4 +11,4 @@ Kubernetes is one of the coolest technology and is made available under [CNCF](h
 8. [Horizontal Pod Autoscaling - HPA](HorizontalPodAutoscaling.md)
 9. [Horizontal Pod Autoscaling - Disable scale down](HPA_ScaleDown_Disable.md)
 10. [Configuring Ingress and Egress rules](NetworkPolicy.md)
-11. [Accessing K8S REST API within POD](AccessingKubeapiserverFromPod.md)
+11. [Accessing K8S REST API within POD](VerifyingServiceAccount.md)
