@@ -8,3 +8,4 @@ Even though we are working in Unix/Linux for so many years, there will definitel
 5. [Shell script for listing files recursively](list_files_recursively.md)
 6. [Tunneling using MobaXTerm](TunnellingXTerm.md)
 7. [XMing - Alternative to VNC server](XMing.md)
+8. [SFTP commands](sftp.md)
